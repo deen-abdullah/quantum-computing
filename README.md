@@ -2,6 +2,7 @@
 Implementation of quantum gates and algorithm: Controlled-NOT, Fredkin gate, Deutsch’s algorithm, Grover’s search algorithm
 
 ####################################################################
+
 Question-1: Implement a Controlled-NOT as a function and test it.
 
 Solution: Controlled-NOT:  In computing science, the controlled NOT gate also known as C-NOT or CNOT is a quantum gate that is an essential component in the construction of a quantum computer. 
@@ -35,6 +36,7 @@ Sample output:
 The output is |1,1>. i.e, flip the value of second qubit 
 
 #########################################################################
+
 Question-2: Implement a Fredkin gate as a function and test it.
 
 Solution: Fredkin Gate:  In computing science, the Fredkin gate is a quantum gate which has three inputs and three outputs.
@@ -71,6 +73,7 @@ Sample output:
 The output is |1,1,0>. i.e, swap the value between second and third qubits
 
 ################################################################################
+
 Question-3: Implement Deutsch’s algorithm and test it.
 
 Solution: Deutsch’s algorithm:  The simplest quantum algorithm is Deutsch’s algorithm, which is a nice algorithm that solves a slightly contrived problem. This algorithm is concerned with functions from the set {0, 1} to the set {0, 1}. There are four such functions that might be visualized as
@@ -108,6 +111,7 @@ Answer: As the top bit is |1>, f is balanced
 
 
 #####################################################################
+
 Question-4: Implement Grover’s search algorithm and test it.
 
 Solution: Grover’s search algorithm: Grover's algorithm is a quantum algorithm that finds with high probability the unique input to a black box function that produces a particular output value, using just O(√N) evaluations of the function, where N is the size of the function's domain.
